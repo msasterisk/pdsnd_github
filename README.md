@@ -2,10 +2,10 @@
 This project and README file were created on Aug 22, 2020.
 
 ### Project Title
-Replace the Project Title
+Bikeshare - Python Project
 
 ### Description
-Describe what your project is about and what it does
+The Bikeshare project uses Python to understand US bikeshare data. It calculates statistics and builds an interactive environment where a user chooses the data and filter for a dataset to analyze.
 
 ### Files used
 Include the files used
