@@ -220,7 +220,7 @@ def user_stats(df):
 def display_data(df):
     index=0
     user_input=input('would you like to display 5 rows of raw data? ').lower()
-    while user_input in ['yes','y','yep','yea','yeah','you got it', 'you bet','does the bear live in the woods?'] and index+5 < df.shape[0]:
+    while user_input in ['yes','y','yep','yea','yeah','you got it','of course','sure','sure thing','you bet','does the bear live in the woods?'] and index+5 < df.shape[0]:
         print(df.iloc[index:index+5])
         index += 5
         user_input = input('would you like to display another 5 rows of raw data? ').lower()
